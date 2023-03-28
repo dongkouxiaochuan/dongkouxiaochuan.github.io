@@ -118,12 +118,12 @@ function aboutMe(){
     var slogan2 = document.getElementById("slogan2");
     if(i==0){
         i=1;
-        slogan.style.height="100px";
-        slogan2.innerHTML="👋 Hi, I’m @dongkouxiaochuan\
-        👀 Im interested in RISC-V and DSA\
-        🌱 I’m currently learning ML hardware accelerate\
-        💞️ I’m looking to collaborate on hardware accelerate papers ...\
-        📫 How to reach me：通过我的知乎 ...。";
+        slogan.style.height="200px";
+        slogan2.innerHTML="👋 你好啊,我是lawliet\
+                           \n👀 我对体系结构和数字IC设计感兴趣\
+                           \n🌱我现在在从事ML芯片的开发\
+                           \n💞️我在寻找小伙伴合作ML和数字IC结合方向的论文\
+                           \n📫请通过我的知乎和我取得联系";
     } else {
         i=0;
         slogan.style.height="50px";
