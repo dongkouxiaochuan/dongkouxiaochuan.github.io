@@ -119,7 +119,11 @@ function aboutMe(){
     if(i==0){
         i=1;
         slogan.style.height="100px";
-        slogan2.innerHTML="方光宇，一个芯片设计工程师，对数字架构感兴趣。";
+        slogan2.innerHTML="👋 Hi, I’m @dongkouxiaochuan\
+        👀 Im interested in RISC-V and DSA\
+        🌱 I’m currently learning ML hardware accelerate\
+        💞️ I’m looking to collaborate on hardware accelerate papers ...\
+        📫 How to reach me：通过我的知乎 ...。";
     } else {
         i=0;
         slogan.style.height="50px";
